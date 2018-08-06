@@ -8,7 +8,7 @@ var logger = require('morgan');
 var mongo = require('mongodb');
 var monk = require('monk');
 //connection to 27017 on ec2 instance
-var db = monk('user1:cheese@34.231.232.127/admin');
+var db = monk('user2:cheese@34.231.232.127/nodetest1');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
